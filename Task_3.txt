@@ -1,0 +1,54 @@
+
+grid-auto-columns-
+(initial value - auto)
+
+Similarly, the grid-auto-columns property specifies the width of columns that are automatically created when
+there is no explicit column definition.
+
+index.html
+<div class="container">
+<div>Item 3</div>
+<dav>Item 4<div>
+<div>Item 5</div>
+<div>Item 6</div>
+</div>
+
+style.css
+.container (
+display: grid;
+grid-template-areas:" X X X":
+grid-template-columns: 5Opx:
+grid-auto-columns: 100px:
+container  div {}
+border: ipx solid black:
+background-color: aquamarine:
+padding: 5px:
+}
+
+grid-auto-rows:
+(initial value - auto)
+grid-auto-rows property specifies the height of rows that are automatically created when there is no explicit
+row definition.
+
+index.html
+<div class= "container">
+<div>Iteim 2</div>
+<div>Item 3</div>
+<div>Item 4cldiv>
+<div>Item 5</div>
+<div>Item 6</div>
+</div>
+
+
+style.css
+
+.container{
+display: grid;
+grid-template-areas: "X X X”;
+grid-template-rows: 5Opx;
+grid-auto-rows: 1Bpx;
+.container div {
+border: 1px solid black;
+background-color: aquamarine;
+padding: 5px;
+}

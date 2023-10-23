@@ -1,0 +1,17 @@
+justify—items:
+(default value - stretch)
+This property allows us to set the default way of justifying each item in their respective grid cells.
+Now, we will see how items get arranged using each possible value of justify-items.
+1. justify-items: center - Place grid items at the center of their respective grid cells.
+
+2. justify-items: start - Place grid items from the start of their respective grid cells.
+
+3. justify-items: end - Place grid items from the end of their respective grid cells.
+4. justIfy-items: stretch - Stretch grid Items to till the available space, in their respective grid cells. It is the
+default value of justify-items.
+
+
+
+justify-self:
+justify-self properties control the alignment of any specific grid item within its grid cell along the
+horizontal and vertical axes, respectively. The values can be a start, end, center, stretch.
